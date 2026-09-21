@@ -2,7 +2,7 @@
 
 Site portfolio personnel présentant le profil, les compétences et les projets de **Rantoniaina Harlivah Fanomezantsoa**, développeur full-stack en spécialisation **intelligence artificielle et sécurité informatique**.
 
-🔗 **Site en ligne :** https://ranto-nyaina.github.io/portofolio/
+🔗 **Site en ligne :** https://ranto-nyaina.github.io/Portofolio/
 
 ---
 
@@ -46,9 +46,9 @@ Compétences organisées par domaine :
 
 | Projet | Description | Lien |
 |---|---|---|
-| **Immatriculation fiscale en ligne** | Application mobile pour la Direction Générale des Impôts (réalisée en stage) | [GitHub](https://github.com/Ranto-nyaina/immatriculation_fiscale_en_ligne) |
+| **Immatriculation fiscale en ligne** | Application mobile pour la Direction Générale des Impôts (réalisée en stage) | [GitHub](https://github.com/Ranto-nyaina/Immatriculation_fiscale_en_ligne) |
 | **QCM AI** | Génération et correction de QCM assistées par IA | [GitHub](https://github.com/Ranto-nyaina/DevMobile_qcm_IA) |
-| **Analyse Big Data des avis clients** | NLP, Machine Learning, PySpark sur un dataset de +560 000 avis clients | [GitHub](https://github.com/Ranto-nyaina/big-data-analyse-avis-clients) |
+| **Analyse Big Data des avis clients** | NLP, Machine Learning, PySpark sur un dataset de +560 000 avis clients | [GitHub](https://github.com/Ranto-nyaina/Big-data-analyse-avis-clients) |
 | **iPark** | Design UI/UX d'une plateforme de location de parkings | [Figma](https://www.figma.com/design/Cm2kS9kLRGap2Itq773dSp/Ipark) |
 | **Pare-feu applicatif OWASP ModSecurity** | Configuration d'un WAF sur Kali Linux | — |
 
@@ -81,7 +81,7 @@ Pas de framework, pas de build : le site se déploie tel quel sur GitHub Pages, 
 # 📁 Structure du projet
 
 ```text
-portofolio/
+Portofolio/
 ├── index.html
 ├── profile.png
 └── README.md
@@ -102,8 +102,8 @@ Ouvrir directement `index.html` dans un navigateur.
 ## Option 2 — Serveur local
 
 ```bash
-git clone https://github.com/Ranto-nyaina/portofolio.git
-cd portofolio
+git clone https://github.com/Ranto-nyaina/Portofolio.git
+cd Portofolio
 python -m http.server 8000
 ```
 
@@ -120,13 +120,13 @@ http://localhost:8000
 Le site est hébergé et servi directement via **GitHub Pages**, à partir du dépôt :
 
 ```text
-https://github.com/Ranto-nyaina/portofolio
+https://github.com/Ranto-nyaina/Portofolio
 ```
 
 URL publique :
 
 ```text
-https://ranto-nyaina.github.io/portofolio/
+https://Ranto-nyaina.github.io/Portofolio/
 ```
 
 Aucune étape de build n'est nécessaire : GitHub Pages sert directement `index.html`.
