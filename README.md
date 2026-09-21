@@ -2,11 +2,7 @@
 
 Site portfolio personnel présentant le profil, les compétences et les projets de **Rantoniaina Harlivah Fanomezantsoa**, développeur full-stack en spécialisation **intelligence artificielle et sécurité informatique**.
 
-<<<<<<< HEAD
-🔗 **Site en ligne :** https://ranto-nyaina.github.io/Portofolio/
-=======
 🔗 **Site en ligne :** https://Ranto-nyaina.github.io/Portofolio/
->>>>>>> 3d3881c (uptade: links and profile)
 
 ---
 
@@ -54,11 +50,7 @@ Compétences organisées par domaine :
 | **QCM AI** | Génération et correction de QCM assistées par IA | [GitHub](https://github.com/Ranto-nyaina/DevMobile_qcm_IA) |
 | **Analyse Big Data des avis clients** | NLP, Machine Learning, PySpark sur un dataset de +560 000 avis clients | [GitHub](https://github.com/Ranto-nyaina/Big-data-analyse-avis-clients) |
 | **iPark** | Design UI/UX d'une plateforme de location de parkings | [Figma](https://www.figma.com/design/Cm2kS9kLRGap2Itq773dSp/Ipark) |
-<<<<<<< HEAD
-| **Pare-feu applicatif OWASP ModSecurity** | Configuration d'un WAF sur Kali Linux | — |
-=======
 | **Pare-feu applicatif OWASP ModSecurity** | Configuration d'un WAF (ModSecurity + OWASP CRS) sur Kali Linux | [GitHub](https://github.com/Ranto-nyaina/OWASP-Modsecurity-CRS-DVWA) |
->>>>>>> 3d3881c (uptade: links and profile)
 
 ## 💼 Expérience
 
@@ -143,10 +135,6 @@ Aucune étape de build n'est nécessaire : GitHub Pages sert directement `index.
 
 # ⚠️ Limites actuelles
 
-<<<<<<< HEAD
-* le WAF OWASP ModSecurity n'a pas de lien de preuve associé (pas de dépôt public), contrairement aux 4 autres projets — à corriger si un dépôt ou une doc existe ;
-=======
->>>>>>> 3d3881c (uptade: links and profile)
 * un seul fichier HTML pour l'ensemble du site : au-delà d'une certaine taille, la maintenance devient plus difficile sans séparation CSS/JS ;
 * pas de version responsive documentée — à vérifier si le rendu mobile est optimisé ;
 * pas d'indication de langue (le site est-il en français, anglais, ou bilingue ?) — utile à préciser pour un public international.
@@ -157,10 +145,6 @@ Aucune étape de build n'est nécessaire : GitHub Pages sert directement `index.
 
 ### Contenu
 
-<<<<<<< HEAD
-* ajouter un lien de preuve pour le projet WAF (dépôt de configuration, capture d'écran, ou article technique) ;
-=======
->>>>>>> 3d3881c (uptade: links and profile)
 * ajouter une version anglaise si le public visé inclut des recruteurs internationaux.
 
 ### Technique
