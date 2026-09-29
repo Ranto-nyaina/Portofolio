@@ -165,6 +165,12 @@
     margin-bottom: 10px;
   }
   .project-top h3{ font-size: 1.12rem; margin:0; font-weight:700; }
+  .project-category{
+    font-family:'IBM Plex Mono', monospace; font-size: 0.8rem; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--accent); font-weight:700;
+    margin: 40px 0 14px; padding-top: 24px; border-top: 1px solid var(--line);
+  }
+  .project-category:first-of-type{ margin-top: 0; padding-top: 0; border-top: none; }
   .project-meta{ font-family:'IBM Plex Mono', monospace; font-size: 0.78rem; color: var(--ink-soft); white-space:nowrap; }
   .project p{ color: var(--ink-soft); margin: 0 0 14px; max-width: 60ch; }
   .project .tag-row{ margin-top: 4px; }
@@ -299,7 +305,7 @@
     <div class="wrap">
       <h2>Profil</h2>
       <div class="profil-text">
-        <p>En formation Bacc+4 en intelligence artificielle (ENI Fianarantsoa), je développe des applications web et mobiles de bout en bout : backend Django et PostgreSQL, frontend React Native, Vue.js et Flutter, jusqu'à la configuration des serveurs qui font tourner le tout.</p>
+        <p>En formation Master 1 en intelligence artificielle (ENI Fianarantsoa), je développe des applications web et mobiles de bout en bout : backend Django et PostgreSQL, frontend React Native, Vue.js et Flutter, jusqu'à la configuration des serveurs qui font tourner le tout.</p>
         <p>Mon stage à la Direction Générale des Impôts m'a permis de livrer seul une application complète, du besoin métier au déploiement. Je complète aujourd'hui ce socle par une spécialisation en intelligence artificielle appliquée et en sécurité informatique.</p>
       </div>
     </div>
@@ -413,72 +419,9 @@
   <section id="projets">
     <div class="wrap">
       <h2>Projets</h2>
-      <p class="lede" style="margin-top:-16px; margin-bottom:28px;">Six réalisations concrètes, du besoin métier au déploiement.</p>
+      <p class="lede" style="margin-top:-16px; margin-bottom:28px;">Sept réalisations concrètes, du besoin métier au déploiement, regroupées par type.</p>
 
-      <div class="project">
-        <div class="project-top">
-          <h3>Immatriculation fiscale en ligne</h3>
-          <span class="project-meta">Avr. 2024 – Nov. 2024</span>
-        </div>
-        <p class="project-role">Rôle : conception et développement complet, front et back.</p>
-        <p>Conception et réalisation d'une application mobile d'immatriculation fiscale en ligne avec un espace contribuable dédié aux personnes physiques, pour la Direction Générale des Impôts (Antananarivo). L'application couvre l'inscription, la gestion du profil contribuable et le suivi de la démarche depuis un mobile.</p>
-        <div class="tag-row">
-          <span class="tag">React Native</span>
-          <span class="tag">Django</span>
-          <span class="tag">PostgreSQL</span>
-        </div>
-        <a class="project-link" href="https://github.com/Ranto-nyaina/Immatriculation_fiscale_en_ligne" target="_blank" rel="noopener">Voir le code</a>
-      </div>
-
-      <div class="project">
-        <div class="project-top">
-          <h3>QCM AI — génération et correction de QCM assistée par IA</h3>
-          <span class="project-meta">Projet personnel</span>
-        </div>
-        <p class="project-role">Rôle : conception et développement complet, seul.</p>
-        <p>Application mobile/web permettant à des enseignants de générer automatiquement des QCM à partir d'un texte ou d'un PDF de cours, de créer des devoirs par niveau académique avec suivi individuel par étudiant, et de détecter le plagiat entre réponses par similarité TF-IDF. Les étudiants passent leurs QCM et devoirs selon leur niveau et suivent leurs résultats sur un tableau de bord.</p>
-        <div class="tag-row">
-          <span class="tag">Flutter</span>
-          <span class="tag">Django REST Framework</span>
-          <span class="tag">scikit-learn</span>
-          <span class="tag">TF-IDF</span>
-          <span class="tag">SQLite</span>
-        </div>
-        <a class="project-link" href="https://github.com/Ranto-nyaina/DevMobile_qcm_IA" target="_blank" rel="noopener">Voir le code</a>
-      </div>
-
-      <div class="project">
-        <div class="project-top">
-          <h3>Analyse Big Data des avis clients</h3>
-          <span class="project-meta">Projet académique — Bacc+4 IA, 2026</span>
-        </div>
-        <p class="project-role">Rôle : conception et développement complet du pipeline, seul.</p>
-        <p>Pipeline complet d'analyse de 568 000+ avis clients (dataset Amazon Fine Food Reviews) : nettoyage des données, analyse NLP des thèmes et sentiments, modèles de Machine Learning pour prédire sentiment et note (89,7 % et 77,5 % d'accuracy), traitement Big Data avec PySpark, prévision de satisfaction par Holt-Winters, exposition via une API FastAPI et visualisation dans un dashboard Streamlit avec analyse en temps réel.</p>
-        <div class="tag-row">
-          <span class="tag">Python</span>
-          <span class="tag">PySpark</span>
-          <span class="tag">scikit-learn</span>
-          <span class="tag">NLTK</span>
-          <span class="tag">FastAPI</span>
-          <span class="tag">Streamlit</span>
-        </div>
-        <a class="project-link" href="https://github.com/Ranto-nyaina/Big-data-analyse-avis-clients" target="_blank" rel="noopener">Voir le code</a>
-      </div>
-
-      <div class="project">
-        <div class="project-top">
-          <h3>iPark — location de parkings entre particuliers</h3>
-          <span class="project-meta">Projet personnel — design</span>
-        </div>
-        <p class="project-role">Rôle : design UI/UX, seul.</p>
-        <p>Design d'une plateforme mobile C2C de location de places de parking privées en ville : recherche, réservation et confirmation de bout en bout, avec tarifs dégressifs, bornes de recharge électrique et codes d'accès sécurisés.</p>
-        <div class="tag-row">
-          <span class="tag">Figma</span>
-          <span class="tag">UI/UX</span>
-          <span class="tag">Mobile</span>
-        </div>
-        <a class="project-link" href="https://www.figma.com/design/Cm2kS9kLRGap2Itq773dSp/Ipark" target="_blank" rel="noopener">Voir sur Figma</a>
-      </div>
+      <h3 class="project-category">Sécurité informatique &amp; cloud</h3>
 
       <div class="project">
         <div class="project-top">
@@ -513,6 +456,104 @@
         </div>
         <a class="project-link" href="https://github.com/Ranto-nyaina/Securite_Cloud_Native_Falco_Wazuh" target="_blank" rel="noopener">Voir le code</a>
       </div>
+
+      <h3 class="project-category">Développement web</h3>
+
+      <div class="project">
+        <div class="project-top">
+          <h3>Application web de gestion scolaire</h3>
+          <span class="project-meta">Stage L2 — ENI Toliara</span>
+        </div>
+        <p class="project-role">Rôle : conception et développement complet, front et back, en stage pour la scolarité de l'ENI Toliara.</p>
+        <p>Application web de gestion de la scolarité, avec deux espaces distincts. L'administrateur gère les élèves (CRUD), saisit et suit les notes, planifie les emplois du temps par classe, publie des annonces ciblées et crée des QCM. L'étudiant consulte ses notes et moyennes pondérées, son emploi du temps et les annonces, et passe des QCM avec correction automatique.</p>
+        <p>Côté technique : architecture MVC simplifiée (config / includes / modules), authentification par sessions avec mots de passe hachés (<span class="mono">password_hash</span>), requêtes préparées PDO contre les injections SQL, validation côté client et serveur, interface responsive Bootstrap 5 et recherche en temps réel.</p>
+        <div class="tag-row">
+          <span class="tag">PHP</span>
+          <span class="tag">MySQL</span>
+          <span class="tag">PDO</span>
+          <span class="tag">Bootstrap 5</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">MVC</span>
+          <span class="tag">Authentication</span>
+          <span class="tag">CRUD</span>
+          <span class="tag">Responsive Design</span>
+          <span class="tag">QCM</span>
+          <span class="tag">E-learning</span>
+        </div>
+        <a class="project-link" href="https://github.com/Ranto-nyaina/Gestion_scolaire.git" target="_blank" rel="noopener">Voir le code</a>
+      </div>
+
+      <h3 class="project-category">Développement mobile</h3>
+
+      <div class="project">
+        <div class="project-top">
+          <h3>Immatriculation fiscale en ligne</h3>
+          <span class="project-meta">Avr. 2024 – Nov. 2024</span>
+        </div>
+        <p class="project-role">Rôle : conception et développement complet, front et back.</p>
+        <p>Conception et réalisation d'une application mobile d'immatriculation fiscale en ligne avec un espace contribuable dédié aux personnes physiques, pour la Direction Générale des Impôts (Antananarivo). L'application couvre l'inscription, la gestion du profil contribuable et le suivi de la démarche depuis un mobile.</p>
+        <div class="tag-row">
+          <span class="tag">React Native</span>
+          <span class="tag">Django</span>
+          <span class="tag">PostgreSQL</span>
+        </div>
+        <a class="project-link" href="https://github.com/Ranto-nyaina/Immatriculation_fiscale_en_ligne" target="_blank" rel="noopener">Voir le code</a>
+      </div>
+
+      <div class="project">
+        <div class="project-top">
+          <h3>QCM AI — génération et correction de QCM assistée par IA</h3>
+          <span class="project-meta">Projet personnel</span>
+        </div>
+        <p class="project-role">Rôle : conception et développement complet, seul.</p>
+        <p>Application mobile/web permettant à des enseignants de générer automatiquement des QCM à partir d'un texte ou d'un PDF de cours, de créer des devoirs par niveau académique avec suivi individuel par étudiant, et de détecter le plagiat entre réponses par similarité TF-IDF. Les étudiants passent leurs QCM et devoirs selon leur niveau et suivent leurs résultats sur un tableau de bord.</p>
+        <div class="tag-row">
+          <span class="tag">Flutter</span>
+          <span class="tag">Django REST Framework</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">TF-IDF</span>
+          <span class="tag">SQLite</span>
+        </div>
+        <a class="project-link" href="https://github.com/Ranto-nyaina/DevMobile_qcm_IA" target="_blank" rel="noopener">Voir le code</a>
+      </div>
+
+      <h3 class="project-category">Data &amp; IA</h3>
+
+      <div class="project">
+        <div class="project-top">
+          <h3>Analyse Big Data des avis clients</h3>
+          <span class="project-meta">Projet académique — Master 1 IA, 2026</span>
+        </div>
+        <p class="project-role">Rôle : conception et développement complet du pipeline, seul.</p>
+        <p>Pipeline complet d'analyse de 568 000+ avis clients (dataset Amazon Fine Food Reviews) : nettoyage des données, analyse NLP des thèmes et sentiments, modèles de Machine Learning pour prédire sentiment et note (89,7 % et 77,5 % d'accuracy), traitement Big Data avec PySpark, prévision de satisfaction par Holt-Winters, exposition via une API FastAPI et visualisation dans un dashboard Streamlit avec analyse en temps réel.</p>
+        <div class="tag-row">
+          <span class="tag">Python</span>
+          <span class="tag">PySpark</span>
+          <span class="tag">scikit-learn</span>
+          <span class="tag">NLTK</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">Streamlit</span>
+        </div>
+        <a class="project-link" href="https://github.com/Ranto-nyaina/Big-data-analyse-avis-clients" target="_blank" rel="noopener">Voir le code</a>
+      </div>
+
+      <h3 class="project-category">Design UI/UX</h3>
+
+      <div class="project">
+        <div class="project-top">
+          <h3>iPark — location de parkings entre particuliers</h3>
+          <span class="project-meta">Projet personnel — design</span>
+        </div>
+        <p class="project-role">Rôle : design UI/UX, seul.</p>
+        <p>Design d'une plateforme mobile C2C de location de places de parking privées en ville : recherche, réservation et confirmation de bout en bout, avec tarifs dégressifs, bornes de recharge électrique et codes d'accès sécurisés.</p>
+        <div class="tag-row">
+          <span class="tag">Figma</span>
+          <span class="tag">UI/UX</span>
+          <span class="tag">Mobile</span>
+        </div>
+        <a class="project-link" href="https://www.figma.com/design/Cm2kS9kLRGap2Itq773dSp/Ipark" target="_blank" rel="noopener">Voir sur Figma</a>
+      </div>
+
     </div>
   </section>
 
@@ -553,7 +594,7 @@
       <h2>Formation</h2>
       <div class="edu-item">
         <p class="edu-date">2025 – 2026 (en cours)</p>
-        <p class="edu-title">Bacc+4 en Intelligence Artificielle</p>
+        <p class="edu-title">Master 1 en Intelligence Artificielle</p>
         <p class="edu-org">ENI Fianarantsoa, Madagascar</p>
       </div>
       <div class="edu-item">

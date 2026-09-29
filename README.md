@@ -1,6 +1,6 @@
 # 💼 Portfolio — FANOMEZANTSOA Rantoniaina Harlivah
 
-Site portfolio personnel présentant le profil, les compétences et les projets de **Rantoniaina Harlivah Fanomezantsoa**, développeur full-stack en spécialisation **intelligence artificielle et sécurité informatique**.
+Site portfolio personnel présentant le profil, les compétences et les projets de **FANOMEZANTSOA Rantoniaina Harlivah**, développeur full-stack en spécialisation **intelligence artificielle et sécurité informatique**.
 
 🔗 **Site en ligne :** https://Ranto-nyaina.github.io/Portofolio/
 
@@ -13,8 +13,8 @@ Un portfolio doit remplir un rôle précis : donner à un recruteur ou un client
 Ce site répond à ce besoin avec :
 
 * une présentation directe du profil et du positionnement ;
-* une cartographie des compétences par domaine (dev, data, réseaux, design) ;
-* une sélection de 5 projets concrets, chacun avec une preuve vérifiable (code ou design) ;
+* une cartographie des compétences par domaine (dev, data, réseaux, sécurité, design) ;
+* une sélection de 7 projets concrets, chacun avec une preuve vérifiable (code ou design) ;
 * le parcours professionnel et académique ;
 * les moyens de contact directs.
 
@@ -34,23 +34,48 @@ Présentation et positionnement : développeur full-stack en spécialisation IA 
 
 Compétences organisées par domaine :
 
-* Développement
+* Développement (langages, frameworks, outils)
 * Bases de données
 * Systèmes & réseaux
+* Serveur, web & sécurité
 * Data / IA
 * Design
 
 ## 🚀 Projets
 
-5 réalisations, chacune avec un lien vérifiable vers le code ou le design :
+7 réalisations, chacune avec un lien vérifiable vers le code ou le design, regroupées par type :
+
+### Sécurité informatique & cloud
+
+| Projet | Description | Lien |
+|---|---|---|
+| **Pare-feu applicatif OWASP ModSecurity** | Configuration d'un WAF (ModSecurity + OWASP CRS) sur Kali Linux | [GitHub](https://github.com/Ranto-nyaina/OWASP-Modsecurity-CRS-DVWA) |
+| **Sécurité cloud-native — Falco et Wazuh** | Détection comportementale et réponse automatisée aux attaques sur un cluster K3s | [GitHub](https://github.com/Ranto-nyaina/Securite_Cloud_Native_Falco_Wazuh) |
+
+### Développement web
+
+| Projet | Description | Lien |
+|---|---|---|
+| **Application web de gestion scolaire** | Gestion scolaire (élèves, notes, emplois du temps, QCM) — stage L2, ENI Toliara | [GitHub](https://github.com/Ranto-nyaina/Gestion_scolaire.git) |
+
+### Développement mobile
 
 | Projet | Description | Lien |
 |---|---|---|
 | **Immatriculation fiscale en ligne** | Application mobile pour la Direction Générale des Impôts (réalisée en stage) | [GitHub](https://github.com/Ranto-nyaina/Immatriculation_fiscale_en_ligne) |
 | **QCM AI** | Génération et correction de QCM assistées par IA | [GitHub](https://github.com/Ranto-nyaina/DevMobile_qcm_IA) |
+
+### Data & IA
+
+| Projet | Description | Lien |
+|---|---|---|
 | **Analyse Big Data des avis clients** | NLP, Machine Learning, PySpark sur un dataset de +560 000 avis clients | [GitHub](https://github.com/Ranto-nyaina/Big-data-analyse-avis-clients) |
+
+### Design UI/UX
+
+| Projet | Description | Lien |
+|---|---|---|
 | **iPark** | Design UI/UX d'une plateforme de location de parkings | [Figma](https://www.figma.com/design/Cm2kS9kLRGap2Itq773dSp/Ipark) |
-| **Pare-feu applicatif OWASP ModSecurity** | Configuration d'un WAF (ModSecurity + OWASP CRS) sur Kali Linux | [GitHub](https://github.com/Ranto-nyaina/OWASP-Modsecurity-CRS-DVWA) |
 
 ## 💼 Expérience
 
@@ -58,7 +83,7 @@ Parcours professionnel.
 
 ## 🎓 Formation
 
-Cursus académique.
+Cursus académique — Master 1 en Intelligence Artificielle, ENI Fianarantsoa.
 
 ## 📬 Contact
 
@@ -135,7 +160,7 @@ Aucune étape de build n'est nécessaire : GitHub Pages sert directement `index.
 
 # ⚠️ Limites actuelles
 
-* un seul fichier HTML pour l'ensemble du site : au-delà d'une certaine taille, la maintenance devient plus difficile sans séparation CSS/JS ;
+* un seul fichier HTML pour l'ensemble du site : au-delà d'une certaine taille, la maintenance devient plus difficile sans séparation CSS/JS — avec 7 projets, ce seuil se rapproche ;
 * pas de version responsive documentée — à vérifier si le rendu mobile est optimisé ;
 * pas d'indication de langue (le site est-il en français, anglais, ou bilingue ?) — utile à préciser pour un public international.
 
@@ -178,6 +203,6 @@ Aucune étape de build n'est nécessaire : GitHub Pages sert directement `index.
 
 # 📌 Conclusion
 
-Ce portfolio réunit en une seule page statique le profil, les compétences et 5 projets vérifiables, du développement mobile à la sécurité informatique en passant par le Big Data et le design UI/UX.
+Ce portfolio réunit en une seule page statique le profil, les compétences et 7 projets vérifiables, du développement mobile à la sécurité informatique et cloud-native, en passant par le Big Data, le design UI/UX et le développement web.
 
 Son intérêt principal n'est pas la sophistication technique du site lui-même — volontairement simple — mais la qualité et la diversité des preuves qu'il pointe : des projets réels, avec du code ou des maquettes accessibles publiquement.
