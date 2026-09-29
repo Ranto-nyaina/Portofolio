@@ -45,37 +45,15 @@ Compétences organisées par domaine :
 
 7 réalisations, chacune avec un lien vérifiable vers le code ou le design, regroupées par type :
 
-### Sécurité informatique & cloud
-
-| Projet | Description | Lien |
-|---|---|---|
-| **Pare-feu applicatif OWASP ModSecurity** | Configuration d'un WAF (ModSecurity + OWASP CRS) sur Kali Linux | [GitHub](https://github.com/Ranto-nyaina/OWASP-Modsecurity-CRS-DVWA) |
-| **Sécurité cloud-native — Falco et Wazuh** | Détection comportementale et réponse automatisée aux attaques sur un cluster K3s | [GitHub](https://github.com/Ranto-nyaina/Securite_Cloud_Native_Falco_Wazuh) |
-
-### Développement web
-
-| Projet | Description | Lien |
-|---|---|---|
-| **Application web de gestion scolaire** | Gestion scolaire (élèves, notes, emplois du temps, QCM) — stage L2, ENI Toliara | [GitHub](https://github.com/Ranto-nyaina/Gestion_scolaire.git) |
-
-### Développement mobile
-
-| Projet | Description | Lien |
-|---|---|---|
-| **Immatriculation fiscale en ligne** | Application mobile pour la Direction Générale des Impôts (réalisée en stage) | [GitHub](https://github.com/Ranto-nyaina/Immatriculation_fiscale_en_ligne) |
-| **QCM AI** | Génération et correction de QCM assistées par IA | [GitHub](https://github.com/Ranto-nyaina/DevMobile_qcm_IA) |
-
-### Data & IA
-
-| Projet | Description | Lien |
-|---|---|---|
-| **Analyse Big Data des avis clients** | NLP, Machine Learning, PySpark sur un dataset de +560 000 avis clients | [GitHub](https://github.com/Ranto-nyaina/Big-data-analyse-avis-clients) |
-
-### Design UI/UX
-
-| Projet | Description | Lien |
-|---|---|---|
-| **iPark** | Design UI/UX d'une plateforme de location de parkings | [Figma](https://www.figma.com/design/Cm2kS9kLRGap2Itq773dSp/Ipark) |
+| Type | Projet | Description | Lien |
+|---|---|---|---|
+| Sécurité informatique & cloud | **Pare-feu applicatif OWASP ModSecurity** | Configuration d'un WAF (ModSecurity + OWASP CRS) sur Kali Linux | [GitHub](https://github.com/Ranto-nyaina/OWASP-Modsecurity-CRS-DVWA) |
+| Sécurité informatique & cloud | **Sécurité cloud-native — Falco et Wazuh** | Détection comportementale et réponse automatisée aux attaques sur un cluster K3s | [GitHub](https://github.com/Ranto-nyaina/Securite_Cloud_Native_Falco_Wazuh) |
+| Développement web | **Application web de gestion scolaire** | Gestion scolaire (élèves, notes, emplois du temps, QCM) — stage L2, ENI Toliara | [GitHub](https://github.com/Ranto-nyaina/Gestion_scolaire.git) |
+| Développement mobile | **Immatriculation fiscale en ligne** | Application mobile pour la Direction Générale des Impôts (réalisée en stage) | [GitHub](https://github.com/Ranto-nyaina/Immatriculation_fiscale_en_ligne) |
+| Développement mobile | **QCM AI** | Génération et correction de QCM assistées par IA | [GitHub](https://github.com/Ranto-nyaina/DevMobile_qcm_IA) |
+| Data & IA | **Analyse Big Data des avis clients** | NLP, Machine Learning, PySpark sur un dataset de +560 000 avis clients | [GitHub](https://github.com/Ranto-nyaina/Big-data-analyse-avis-clients) |
+| Design UI/UX | **iPark** | Design UI/UX d'une plateforme de location de parkings | [Figma](https://www.figma.com/design/Cm2kS9kLRGap2Itq773dSp/Ipark) |
 
 ## 💼 Expérience
 
